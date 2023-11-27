@@ -1,66 +1,16 @@
-## Foundry
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+# SolidityBasics
 
-Foundry consists of:
+Welcome to the SolidityBasics repository, a comprehensive resource for learning Solidity with Foundry. This repository offers structured learning paths, from basic concepts to advanced applications in Solidity.
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+## Repository Structure
 
-## Documentation
+- `/src`: Contains Solidity source files organized into categories.
+  - `/01-basics`: Fundamental concepts like data types, variables, operators, and control structures.
+  - `/02-advanced-concepts`: More advanced topics, to be added later.
+- `/test`: Test files corresponding to the Solidity contracts.
 
-https://book.getfoundry.sh/
+## License
 
-## Usage
+This project is licensed under the MIT License - see the `LICENSE` file for details.
 
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```

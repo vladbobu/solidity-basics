@@ -12,3 +12,39 @@ docs/
 
 # Dotenv file
 .env
+
+# Foundry and Forge standard library
+/forge-std/
+
+# Node modules - if using any npm packages
+/node_modules/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editors and IDEs
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/build/
+/dist/
+
+# Log files
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
