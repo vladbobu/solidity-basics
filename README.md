@@ -7,7 +7,6 @@ Welcome to the SolidityBasics repository, a comprehensive resource for learning 
 
 - `/src`: Contains Solidity source files organized into categories.
   - `/01-basics`: Fundamental concepts like data types, variables, operators, and control structures.
-  - `/02-advanced-concepts`: More advanced topics, to be added later.
 - `/test`: Test files corresponding to the Solidity contracts.
 
 ## License
